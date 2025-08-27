@@ -5,13 +5,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
 
         <PackageId>WindowSill.WebBrowser</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.3</Version>
         <Authors>Etienne Baudoux</Authors>
         <Title>Web Browser</Title>
         <Description>This WindowSill extension allows to control zoom of your favorite web browsers. Supports Google Chrome, Microsoft Edge, Mozilla Firefox, Brave, Opera and Vivaldi.</Description>
         <PackageIcon>Assets/globe.png</PackageIcon>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-        <PackageProjectUrl>https://TODO</PackageProjectUrl>
+        <PackageProjectUrl>https://getwindowsill.app</PackageProjectUrl>
         <RepositoryUrl>https://github.com/WindowSill-app/WindowSill.WebBrowser</RepositoryUrl>
     </PropertyGroup>
     <ItemGroup>
@@ -19,6 +19,6 @@
         <None Include="LICENSE.md" Pack="true" PackagePath="\" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="WindowSill.API" Version="0.0.0.2" />
+        <PackageReference Include="WindowSill.API" Version="0.0.3" />
     </ItemGroup>
 </Project>
