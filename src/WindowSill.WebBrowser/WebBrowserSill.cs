@@ -65,7 +65,8 @@ public sealed class WebBrowserSill : ISillActivatedByProcess, ISillListView
         "Mozilla Firefox",
         "Brave",
         "Opera",
-        "Vivaldi"
+        "Vivaldi",
+        "Zen"
         ];
 
     public ValueTask OnActivatedAsync(string processActivatorTypeName, WindowInfo currentProcessWindow)
